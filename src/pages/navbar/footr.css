@@ -1,0 +1,27 @@
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .log {
+    margin: 10px 10px;
+  }
+  
+  .ima {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .ui {
+    margin: 10px;
+  }
+  

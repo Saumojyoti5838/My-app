@@ -1,0 +1,23 @@
+/* src/App.css */
+.Riju1 {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .About,
+  .Projects,
+  .Contact {
+    margin: 20px;
+  }
+  
+  .Project {
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

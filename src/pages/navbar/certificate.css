@@ -1,0 +1,86 @@
+.cont11{
+    padding-left:450px ;
+    padding-right: 450px;
+  
+  }
+  .image11{
+
+    padding-left:2px;
+    padding-top:50px;
+  }
+  /* Add your global styles or import a CSS file if needed */
+
+.para50 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3em;
+    margin:50px 0;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add border for a visual separation */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Add a light background color */
+  }
+  .cer{
+    color: #007bff;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  /* You can customize the styles further based on your design preferences */
+  @media screen and (min-width:100px) and (max-width: 750px) {
+  .cont11{
+    padding-left:5px ;
+    padding-right:5px;
+  
+  }
+  .image11{
+
+    padding-left:2px;
+    padding-top:50px;
+  }
+  
+.para50 {
+  font-family: 'Arial', sans-serif;
+  font-size:1.3em;
+  margin:62px 0px;
+  padding: 10px;
+  
+  border: 1px solid #ddd; /* Add border for a visual separation */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Add a light background color */
+}
+.cer{
+  color: #007bff;
+  text-align: center;
+  padding-top: 2px;
+}
+
+}
+@media screen and (min-width:750px) and (max-width: 1450px) {
+  .cont11{
+    padding-left:5px ;
+    padding-right:5px;
+  
+  }
+  .image11{
+
+    padding-left:2px;
+    padding-top:50px;
+  }
+  
+.para50 {
+  font-family: 'Arial', sans-serif;
+  font-size:1.3em;
+  margin:62px 0px;
+  padding: 10px;
+  
+  border: 1px solid #ddd; /* Add border for a visual separation */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Add a light background color */
+}
+.cer{
+  color: #007bff;
+  text-align: center;
+  padding-top: 2px;
+}
+
+}

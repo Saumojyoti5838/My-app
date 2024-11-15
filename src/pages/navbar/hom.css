@@ -1,0 +1,376 @@
+
+.full-animation{
+    color:#ffffff ;
+    padding-left:15%;
+    padding-top:-10%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2.1em; 
+    
+    
+  }
+
+  
+  .sp {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: letterAnimation 2s forwards; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes letterAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 5;
+      transform: translateX(0);
+    }
+  }
+  .image-container {
+    height:auto;
+   padding-top:10%;
+    padding-left: 75%;
+    
+  
+  }
+  .About{
+    padding-left:11px ;
+    padding-right: 11px;
+  }
+  .Me{
+    color: #1093e5;
+    text-align: center;
+    box-shadow: 100px 12px 50px 0px  rgba(202, 140, 32, 0.9);
+  }
+  .Para{
+    text-align:justify;
+    color: #ffffff;
+    font-size: 1em;
+  }
+  .Project{
+    padding-left:11px ;
+    padding-right: 11px;
+  }
+  .Project1{
+    color: #1093e5;
+    text-align: center;
+    box-shadow: 100px 12px 50px 0px  rgba(202, 140, 32, 0.9);
+  }
+  .para2{
+    text-align:justify;
+    color: #ffffff;
+    font-size: 1em;
+  }
+
+  .para3{
+    text-align:center;
+    color: #ffffff;
+    font-size: 1em;
+    
+  }
+
+  .Skil1{
+    color: #d74d11;
+    text-align: center;
+    box-shadow: 100px 12px 50px 0px  rgba(202, 140, 32, 0.9);
+  }
+  .circular-skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .skill {
+    position: relative;
+    width: 90px;
+    height: 110px;
+    margin: 15px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    animation: rotate 4s linear infinite; /* Rotate animation */
+  }
+  
+  .skill:hover {
+    background-color: #2c3e50;
+    animation-play-state: paused; /* Pause animation on hover */
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .java { background-color: #e74c3c; }
+  .c { background-color: #27ae60; }
+  .python { background-color: #f39c12; }
+  .ai { background-color: #9b59b6; }
+  .ml { background-color: #71cd3d; }
+  .frontend { background-color: #15dbd8; }
+  .React{ background-color: #a7ccc5; }
+  .dl { background-color: #1536db; }
+
+  .mlp-face-recognition-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .para2 {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #db5834;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    animation: rotate 4s linear infinite; /* Rotate animation */
+  }
+  .para2:hover {
+    background-color: #1c84c9;
+    animation-play-state: paused; /* Pause animation on hover */
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .para4 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #db5834;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    animation: rotate  4s linear infinite; /* Rotate animation */
+  }
+  .para4:hover {
+    background-color: #1c84c9;
+    animation-play-state: paused; /* Pause animation on hover */
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+  /*for mobile user only  */
+
+  @media screen and (max-width: 786px) {
+
+    .full-animation {
+      padding-left: 6%;
+      font-size: 1.5em;
+    }
+  
+    .image-container {
+      padding-left: 3.5%;
+      text-align:center;
+    }
+    .Me{
+      color: #1093e5;
+      text-align: center;
+      box-shadow: 100px 12px 50px 0px  rgba(202, 140, 32, 0.9);
+    }
+    .Para{
+      text-align:justify;
+      color: #ffffff;
+      font-size: 1em;
+    }
+    .circular-skills-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+    }
+    
+    .skill {
+      position: relative;
+      width:30px;
+      height: 36px;
+      margin: 6.5px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #3498db;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      transition: background-color 0.3s ease-in-out;
+      animation: rotate 4s linear infinite; /* Rotate animation */
+    }
+    
+    .skill:hover {
+      background-color: #2c3e50;
+      animation-play-state: paused; /* Pause animation on hover */
+    }
+    
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .java { background-color: #e74c3c; }
+    .c { background-color: #27ae60; }
+    .python { background-color: #f39c12; }
+    .ai { background-color: #9b59b6; }
+    .ml { background-color: #71cd3d; }
+    .frontend { background-color: #15dbd8; }
+    .React{ background-color: #a7ccc5; }
+    .dl { background-color: #1536db; }
+    
+    
+  }
+
+
+
+  @media screen and (min-width:786px)and (max-width: 1460px) {
+
+    .full-animation {
+      padding-left: 3%;
+      font-size: 2.1em;
+      text-align: center;
+    }
+  
+    .image-container {
+      padding-left: 4%;
+      text-align:center;
+     padding-top: 40px;
+    }
+    .Me{
+      color: #1093e5;
+      text-align: center;
+      box-shadow: 100px 12px 50px 0px  rgba(202, 140, 32, 0.9);
+    }
+    .Para{
+      text-align:justify;
+      color: #ffffff;
+      font-size: 1em;
+    }
+    
+  .Skil1{
+    color: #d74d11;
+    text-align: center;
+    box-shadow: 100px 12px 50px 0px  rgba(202, 140, 32, 0.9);
+  }
+  .circular-skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .skill {
+    position: relative;
+    width: 90px;
+    height: 110px;
+    margin: 15px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    animation: rotate 4s linear infinite; /* Rotate animation */
+  }
+  
+  .skill:hover {
+    background-color: #2c3e50;
+    animation-play-state: paused; /* Pause animation on hover */
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .java { background-color: #e74c3c; }
+  .c { background-color: #27ae60; }
+  .python { background-color: #f39c12; }
+  .ai { background-color: #9b59b6; }
+  .ml { background-color: #71cd3d; }
+  .frontend { background-color: #15dbd8; }
+  .React{ background-color: #a7ccc5; }
+  .dl { background-color: #1536db; }
+
+  }
+  
+  @media screen and (min-width:786px)and (max-width: 1660px) {
+
+    .full-animation {
+      padding-left: 5%;
+      font-size: 2.1em;
+      text-align: center;
+    }
+  
+    .image-container {
+      padding-left: 4%;
+      text-align:center;
+     padding-top: 40px;
+    }
+  }

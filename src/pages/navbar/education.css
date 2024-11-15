@@ -1,0 +1,62 @@
+.cont2{
+    padding-left:450px ;
+    padding-right: 450px;
+  
+  }
+  .image2{
+
+    padding-left:2px;
+    padding-top:50px;
+  }
+  
+/* Style for the heading */
+.ed {
+    text-align: center;
+    color: #09ec73a5;
+  }
+  
+  /* Style for each education item */
+  .education-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the course title */
+  .cla{
+    color: #007bff; /* Blue color for the course titles */
+  }
+  
+  /* Style for the institution details and duration */
+  .ins {
+    margin: 5px 0;
+    color: #555;
+  }
+  @media screen and (min-width:100px) and (max-width: 786px) {
+
+    .cont2{
+      padding-left:11.5px ;
+      padding-right:11.5px;
+    
+    }
+    .image2{
+  
+      padding-left:2px;
+      padding-top:30px;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width: 1450px) {
+
+    .cont2{
+      padding-left:11.5px ;
+      padding-right:11.5px;
+    
+    }
+    .image2{
+  
+      padding-left:2px;
+      padding-top:30px;
+    }
+  }

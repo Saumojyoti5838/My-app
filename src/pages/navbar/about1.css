@@ -1,0 +1,43 @@
+.cont1{
+    padding-left:450px ;
+    padding-right: 450px;
+  
+  
+  }
+  .para51{
+    text-align:justify;
+    color: #ffffff;
+    font-size: 1.5em;
+    
+    padding-top:50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  @media screen and (min-width:100px) and (max-width: 786px) {
+    .cont1{
+        padding-left:11px ;
+        padding-right: 11px;
+      
+      }
+      .image1{
+        text-align:justify;
+        color: #ffffff;
+        font-size: 1.3em;
+        padding-left:2px;
+        padding-top:25px;
+      }
+      
+  }
+  @media screen and (min-width:500px) and (max-width: 1460px) {
+    .cont1{
+      padding-left:11px ;
+      padding-right: 11px;
+    
+    }
+    .image1{
+      text-align:justify;
+      color: #ffffff;
+      font-size: 1.3em;
+      padding-left:2px;
+      padding-top:25px;
+    }
+    }
